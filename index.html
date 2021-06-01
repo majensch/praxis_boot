@@ -6,6 +6,8 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     </head>
     <body>
@@ -17,15 +19,10 @@
           background-position: center;
           background-size: cover;
         }
-        .container{
-          position:absolute;
-          bottom:0;
-          left:0;
-          right:0;
-          padding-bottom: 50px;
-          color: black;
-          opacity: 0.8;
-        }
+        *{
+              font-family: Roboto;
+              font-weight: 400;
+            }
       </style>
         <header>
           <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
@@ -53,48 +50,40 @@
               </div>
             </nav>  
       </header>
-        <!--Carousel/Slider Start-->
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active" style="background-image: url(/Assets/img1.jpg);">
-            </div>
-            <div class="container">
-              <h1>Wilkommen bei den Zahnärzten am Stadtpark</h1>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda deserunt corporis quae necessitatibus debitis aspernatur reiciendis odit unde. Ipsa, labore?</p>
-            </div>
-            <div class="carousel-item" style="background-image: url(/Assets/img2.jpg);">
-            </div>
-            <div class="container">
-              <h1>Wilkommen bei den Zahnärzten am Stadtpark</h1>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda deserunt corporis quae necessitatibus debitis aspernatur reiciendis odit unde. Ipsa, labore?</p>
-            </div>
-            <div class="carousel-item" style="background-image: url(/Assets/img3.jpg);">
-            </div>
-            <div class="container">
-              <h1>Wilkommen bei den Zahnärzten am Stadtpark</h1>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda deserunt corporis quae necessitatibus debitis aspernatur reiciendis odit unde. Ipsa, labore?</p>
-            </div>
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
+    <main>
+        <div class="text-center">
+          <h1>Willkommen bei den Zahnärzten am stadtpark</h1>
         </div>
-        <!--Carousel/Slider ende-->
+        <!--Carousel/Slider Start-->
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" style="background-image: url(/Assets/img1.jpg);">
+              </div>
+              <div class="carousel-item" style="background-image: url(/Assets/img2.jpg);">
+              </div>
+              <div class="carousel-item" style="background-image: url(/Assets/img3.jpg);">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <!--Carousel/Slider ende-->
         <!--Über uns und nach dem Slider-->
-        <div class="px-4 py-5 my-5 text-center">
+        <div class="px-4 py-5 my-15 text-center">
           <img class="d-block mx-auto mb-4" src="/Assets/Logo.png" alt="" width="200" height="200">
           <h1 class="display-5 fw-bold">Über Uns</h1>
-          <div class="col-lg-6 mx-auto">
+          <div class="col-lg-12 mx-auto">
             <p class="lead mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore blanditiis expedita magnam quibusdam laborum, sapiente ipsam molestias quasi reiciendis sequi sint consequatur aliquam, nihil dolore dolorem autem ab fugit rem deleniti eligendi. Nihil excepturi esse culpa saepe aut dolor deleniti in minima explicabo, voluptatem quo eos exercitationem doloribus ullam laborum porro quaerat, cum soluta facere itaque alias non eius illum repudiandae. Iure aut exercitationem perferendis ea quidem, beatae natus mollitia fugit, at laudantium distinctio nisi odio eum? Saepe iure nisi, temporibus error voluptatibus libero sit repudiandae voluptas omnis consequuntur nostrum eaque quasi voluptates consectetur, dolore magni qui velit quibusdam aperiam.</p>
             <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
               <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Hier Klicken</button>
@@ -103,6 +92,58 @@
           </div>
         </div>
         <!--Über Uns ende-->
+        <div class="b-example-divider"></div>
+        <div class="text-center" style="padding-top:40px; padding-bottom:35px;">
+          <h1 class="display-5 fw-bold">Unsere Leistungen</h1>
+          <p class="lead mb-4">Hier eine kurze Übersicht über unsere Leistungen, die wir ihnen anbieten können</p>
+        </div>
+        <!--Leistungen Start-->
+        <div class="container-fluid" id="leistungen">
+          <div class="container-fluid col-xxl-12 px-10 py-10">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+              <div class="col-10 col-sm-8 col-lg-6">
+                <img src="/Assets/implantat.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+              </div>
+              <div class="col-lg-6">
+                <h1 class="display-5 fw-bold lh-1 mb-3">Implantologie</h1>
+                <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus tempora at, provident ab adipisci quisquam! Temporibus dignissimos alias ratione fuga quasi ea veritatis sequi? Quibusdam distinctio cum assumenda sequi tempore repellendus sunt quos soluta magnam esse porro voluptatibus temporibus alias laudantium, officia reprehenderit, eveniet totam vero commodi fugit dolore perferendis!</p>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                  <a class="btn btn-primary btn-lg px-4 me-md-2" href="#" role="button">Mehr Erfahren</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container-fluid col-xxl-12 px-10 py-10">
+            <div class="row flex-lg-row align-items-center g-5 py-5">
+              <div class="col-10 col-sm-8 col-lg-6">
+                <img src="/Assets/pzr.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="500" height="400" loading="lazy">
+              </div>
+              <div class="col-lg-6">
+                <h1 class="display-5 fw-bold lh-1 mb-3">Professionelle Zahnreinigung</h1>
+                <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus tempora at, provident ab adipisci quisquam! Temporibus dignissimos alias ratione fuga quasi ea veritatis sequi? Quibusdam distinctio cum assumenda sequi tempore repellendus sunt quos soluta magnam esse porro voluptatibus temporibus alias laudantium, officia reprehenderit, eveniet totam vero commodi fugit dolore perferendis!</p>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                  <a class="btn btn-primary btn-lg px-4 me-md-2" href="#" role="button">Mehr Erfahren</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container-fluid col-xxl-12 px-10 py-10">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+              <div class="col-10 col-sm-8 col-lg-6">
+                <img src="/Assets/bleaching.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+              </div>
+              <div class="col-lg-6">
+                <h1 class="display-5 fw-bold lh-1 mb-3">Bleaching</h1>
+                <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus tempora at, provident ab adipisci quisquam! Temporibus dignissimos alias ratione fuga quasi ea veritatis sequi? Quibusdam distinctio cum assumenda sequi tempore repellendus sunt quos soluta magnam esse porro voluptatibus temporibus alias laudantium, officia reprehenderit, eveniet totam vero commodi fugit dolore perferendis!</p>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                  <a class="btn btn-primary btn-lg px-4 me-md-2" href="#" role="button">Mehr Erfahren</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Leistungen Ende-->
+      </main>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
     </body>
 </html>

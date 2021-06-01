@@ -6,16 +6,25 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet"> 
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     </head>
     <body>
         <style>
             .row{
                 padding-top:100px;
-                padding-left:100px;
+                padding-left:50px;
             }
             .container{
                 padding-bottom: 50px;
+            }
+            .col-lg-4{
+              padding-left:100px;
+            }
+            *{
+              font-family: Roboto;
+              font-weight: 400;
             }
         </style>
         <header>
@@ -47,10 +56,12 @@
         <main>
             <div class="row">
                 <div class="container">
+                  <div class="text-center">
                     <h1>Unser Team</h1>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio, amet, praesentium omnis quam aperiam minima quasi dignissimos quia quos, sed voluptatem commodi vel inventore quaerat illum ab aliquid voluptate alias ratione id blanditiis voluptates dolores hic tempore! Nihil eaque labore architecto sequi unde possimus quia, alias, incidunt consequuntur odio dignissimos?</p>
+                    <p class="lead mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio, amet, praesentium omnis quam aperiam minima quasi dignissimos quia quos, sed voluptatem commodi vel inventore quaerat illum ab aliquid voluptate alias ratione id blanditiis voluptates dolores hic tempore! Nihil eaque labore architecto sequi unde possimus quia, alias, incidunt consequuntur odio dignissimos?</p>
+                  </div>
                 </div>
-                <div class="col-lg">
+                <div class="col-lg-4">
                     <div class="card" style="width: 26rem;">
                         <img src="/Assets/susanne2.JPG" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -60,7 +71,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg">
+                <div class="col-lg-4">
                     <div class="card" id="arzt_2" style="width: 26rem;">
                         <img src="/Assets/henke.JPG" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -70,6 +81,16 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-lg-4">
+                  <div class="card" id="arzt_2" style="width: 26rem;">
+                      <img src="/Assets/henke.JPG" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Heike Henke</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum beatae aut, nulla fuga eligendi saepe.</p>
+                        <a href="#" class="btn btn-primary">Mehr</a>
+                      </div>
+                  </div>
+              </div>
             </div>
         </main>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
