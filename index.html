@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    </head>
+    <body>
+      <style>
+        .carousel-item{
+          height:40rem;
+          color: white;
+          position: relative;
+          background-position: center;
+          background-size: cover;
+        }
+        .container{
+          position:absolute;
+          bottom:0;
+          left:0;
+          right:0;
+          padding-bottom: 50px;
+          color: black;
+          opacity: 0.8;
+        }
+      </style>
+        <header>
+          <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="#">Zahnärzte am Stadtpark</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                  <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Leistungen</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="team.html" aria-disabled="true">Team</a>
+                    </li>
+                  </ul>
+                  <form class="d-flex">
+                    <button class="btn btn-outline-success rounded-pill bg-info" type="submit" href="#">Kontaktieren sie uns</button>
+                  </form>
+                </div>
+              </div>
+            </nav>  
+      </header>
+        <!--Carousel/Slider Start-->
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" style="background-image: url(/Assets/img1.jpg);">
+            </div>
+            <div class="container">
+              <h1>Wilkommen bei den Zahnärzten am Stadtpark</h1>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda deserunt corporis quae necessitatibus debitis aspernatur reiciendis odit unde. Ipsa, labore?</p>
+            </div>
+            <div class="carousel-item" style="background-image: url(/Assets/img2.jpg);">
+            </div>
+            <div class="container">
+              <h1>Wilkommen bei den Zahnärzten am Stadtpark</h1>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda deserunt corporis quae necessitatibus debitis aspernatur reiciendis odit unde. Ipsa, labore?</p>
+            </div>
+            <div class="carousel-item" style="background-image: url(/Assets/img3.jpg);">
+            </div>
+            <div class="container">
+              <h1>Wilkommen bei den Zahnärzten am Stadtpark</h1>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda deserunt corporis quae necessitatibus debitis aspernatur reiciendis odit unde. Ipsa, labore?</p>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <!--Carousel/Slider ende-->
+        <!--Über uns und nach dem Slider-->
+        <div class="px-4 py-5 my-5 text-center">
+          <img class="d-block mx-auto mb-4" src="/Assets/Logo.png" alt="" width="200" height="200">
+          <h1 class="display-5 fw-bold">Über Uns</h1>
+          <div class="col-lg-6 mx-auto">
+            <p class="lead mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore blanditiis expedita magnam quibusdam laborum, sapiente ipsam molestias quasi reiciendis sequi sint consequatur aliquam, nihil dolore dolorem autem ab fugit rem deleniti eligendi. Nihil excepturi esse culpa saepe aut dolor deleniti in minima explicabo, voluptatem quo eos exercitationem doloribus ullam laborum porro quaerat, cum soluta facere itaque alias non eius illum repudiandae. Iure aut exercitationem perferendis ea quidem, beatae natus mollitia fugit, at laudantium distinctio nisi odio eum? Saepe iure nisi, temporibus error voluptatibus libero sit repudiandae voluptas omnis consequuntur nostrum eaque quasi voluptates consectetur, dolore magni qui velit quibusdam aperiam.</p>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+              <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Hier Klicken</button>
+              <button type="button" class="btn btn-outline-secondary btn-lg px-4">Hier Klicken</button>
+            </div>
+          </div>
+        </div>
+        <!--Über Uns ende-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    </body>
+</html>
